@@ -100,6 +100,7 @@ body {
     margin-right: 18px;
     color: #ea4335;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .search-box input:focus-within .search-box {
@@ -178,4 +179,55 @@ footer a:first-child {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.top-header-results {
+    justify-content: space-between;
+}
+
+.top-header-results .apps-account {
+    display: flex;
+    align-items: center;
+    padding: 17px 15px 0 0;
+}
+
+.results-logo-form {
+    display: flex;
+}
+
+.results-logo-form img {
+    width: 92px;
+    height: 30px;
+    padding: 15px 28px 0 0px;
+}
+
+.results-logo-form .search-box {
+    margin: 0;
+    width: 692px;
+}
+
+.results-logo-form .search-form {
+    padding: 5px 4px 0 16px;
+}
+
+.search-box .fa-times {
+    color: #80868b;
+    font-size: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.search-box span {
+    border-left: 1px solid #dfe1e5;
+    height: 65%;
+}
+
+.results-logo-form .search-box .fa-microphone {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.results-logo-form .search-box .fa-search {
+    margin: 0 20px 0 20px;
+    color: #4d90fe;
 }
